@@ -1,0 +1,15 @@
+.layout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.form {
+    width: 70%;
+}
+
+.inputs {
+    width: 100%;
+}

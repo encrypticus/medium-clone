@@ -3,18 +3,25 @@
 # dependencies
 /node_modules
 /.pnp
+/front/.pnp
 .pnp.js
+/front/.pnp.js
 .yarn/install-state.gz
+/front/.yarn/install-state.gz
 
 # testing
 /coverage
+/front/coverage
 
 # next.js
 /.next/
 /out/
+/front/.next/
+/front/out/
 
 # production
 /build
+/front/build
 
 # misc
 .DS_Store
@@ -27,16 +34,21 @@ yarn-error.log*
 
 # local env files
 .env*.local
+/front/.env*.local
 
 # vercel
 .vercel
+/front/.vercel
 
 # typescript
 *.tsbuildinfo
+/front/*.tsbuildinfo
 next-env.d.ts
+/front/next-env.d.ts
 
 # compiled output
 /dist
+/back/dist
 
 # Logs
 logs
@@ -85,3 +97,7 @@ pids
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
+/front/.idea/
+/back/.idea/
+/front/node_modules/
+/back/node_modules/
